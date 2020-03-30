@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,42 +46,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NoteTest">
-    <configuration name="NoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NoteStorageTest">
+    <configuration name="NoteStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="laboratorium-7-Jakubk9" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NoteTest" />
+      <option name="MAIN_CLASS_NAME" value="NoteStorageTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoteTest.alwaysPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NoteStorageTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="laboratorium-7-Jakubk9" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NoteTest" />
-      <option name="METHOD_NAME" value="alwaysPass" />
+      <option name="MAIN_CLASS_NAME" value="NoteStorageTest" />
+      <option name="METHOD_NAME" value="addTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoteTest.givenEmptyNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NoteStorageTest.avgTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="laboratorium-7-Jakubk9" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NoteTest" />
-      <option name="METHOD_NAME" value="givenEmptyNameTest" />
+      <option name="MAIN_CLASS_NAME" value="NoteStorageTest" />
+      <option name="METHOD_NAME" value="avgTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoteTest.givenNullNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="laboratorium-7-Jakubk9" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NoteTest" />
-      <option name="METHOD_NAME" value="givenNullNameTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NoteStorageTest" />
+        <item itemvalue="JUnit.NoteStorageTest.avgTest" />
+        <item itemvalue="JUnit.NoteStorageTest.addTest" />
         <item itemvalue="JUnit.NoteTest" />
         <item itemvalue="JUnit.NoteTest.givenOutOfRangeMarkTest" />
-        <item itemvalue="JUnit.NoteTest.givenEmptyNameTest" />
-        <item itemvalue="JUnit.NoteTest.givenNullNameTest" />
-        <item itemvalue="JUnit.NoteTest.alwaysPass" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +115,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585555485356</updated>
-      <workItem from="1585555487009" duration="3512000" />
+      <workItem from="1585555487009" duration="8889000" />
+      <workItem from="1585572801862" duration="21000" />
+      <workItem from="1585577567036" duration="3260000" />
     </task>
     <servers />
   </component>
@@ -128,10 +129,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MockNotesStorage.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
