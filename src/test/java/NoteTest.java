@@ -39,4 +39,11 @@ public class NoteTest {
             Note.of("Kuba", 1);
         }).isInstanceOf(IllegalArgumentException.class).hasMessage("Niewłaściwa ocena");
     }
+
+    @Test
+    public void givenOutOfRangeMarkAnotherArgumentTest() {
+        assertThatThrownBy(() -> {
+            Note.of("Kuba", 7);
+        }).isInstanceOf(IllegalArgumentException.class).hasMessage("Niewłaściwa ocena");
+    }
 }
