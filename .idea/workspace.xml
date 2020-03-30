@@ -45,7 +45,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.NoteTest">
+    <configuration name="NoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="laboratorium-7-Jakubk9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NoteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NoteTest.alwaysPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="laboratorium-7-Jakubk9" />
       <option name="PACKAGE_NAME" value="" />
@@ -56,8 +65,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NoteTest.givenEmptyNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="laboratorium-7-Jakubk9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NoteTest" />
+      <option name="METHOD_NAME" value="givenEmptyNameTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoteTest.givenNullNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="laboratorium-7-Jakubk9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NoteTest" />
+      <option name="METHOD_NAME" value="givenNullNameTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoteTest.givenOutOfRangeMarkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="laboratorium-7-Jakubk9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NoteTest" />
+      <option name="METHOD_NAME" value="givenOutOfRangeMarkTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NoteTest" />
+        <item itemvalue="JUnit.NoteTest.givenOutOfRangeMarkTest" />
+        <item itemvalue="JUnit.NoteTest.givenEmptyNameTest" />
+        <item itemvalue="JUnit.NoteTest.givenNullNameTest" />
         <item itemvalue="JUnit.NoteTest.alwaysPass" />
       </list>
     </recent_temporary>
@@ -72,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585555485356</updated>
-      <workItem from="1585555487009" duration="516000" />
+      <workItem from="1585555487009" duration="2496000" />
     </task>
     <servers />
   </component>
